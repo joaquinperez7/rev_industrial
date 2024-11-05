@@ -1,0 +1,118 @@
+/* Estilos para una estética de Revolución Industrial */
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #2c2c2c;
+    color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Asegura que el contenido esté centrado verticalmente */
+}
+
+.container {
+    max-width: 90%;
+    width: 800px;
+    background-color: #333333;
+    color: #e6e6e6;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid #7a5230;
+    border-radius: 5px;
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #b08d57;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #d0b285;
+    margin: 20px 0;
+    border-bottom: 2px solid #7a5230;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilos para enlaces */
+a {
+    color: #b08d57;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d0b285;
+    text-decoration: underline;
+}
+
+/* Estilo del encabezado y pie de página */
+header {
+    background-color: #7a5230;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #7a5230;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    margin-top: 20px;
+    border-top: 2px solid #b08d57;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Detalles adicionales para la estética de la época */
+.container::before,
+.container::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #b08d57;
+    margin: 10px auto;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #7a5230;
+    margin: 20px 0;
+}
+
+/* Media Queries para adaptar en dispositivos móviles */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.95em;
+    }
+}
